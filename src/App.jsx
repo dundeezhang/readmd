@@ -31,10 +31,11 @@ function App() {
           <h1 className="prog-title">Markdown File Viewer</h1>
           <p className="by-tag">by dhz</p>
           <p>
-            This is a simple and lightweight markdown file viewer. Upload
-            markdown files and see the content displayed here. The files will be
-            read and displayed in real-time. See the table of contents for quick
-            navigation.
+            This is a simple and lightweight markdown file viewer. View your
+            markdown files in full glory with full syntax highlighting for code
+            snippets. Upload markdown files and see the content displayed here.
+            The files will be read and displayed in real-time. See the table of
+            contents for quick navigation.
           </p>
           <p>You can upload multiple files to view at the same time.</p>
         </div>
