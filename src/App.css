@@ -1,27 +1,33 @@
 .app-content h3 {
-  font-size: 2.2vmin;
+  font-size: 2.2vh;
 }
 
 .app-content h2 {
-  font-size: 2.6vmin;
+  font-size: 2.6vh;
 }
 
 .app-content h1 {
-  font-size: 3vmin;
+  font-size: 3vh;
 }
 
 .app-content p {
-  font-size: 1.8vmin;
+  font-size: 1.8vh;
+}
+
+.app-content pre {
+  border-left: solid;
+  border-color: rgb(169, 229, 240);
 }
 
 .wrap-everything {
   max-width: 1000px;
+  padding: 10px;
   margin: auto;
 }
 
 .endoffile {
   color: rgb(160, 160, 160);
-  margin: 0 0 5vmin;
+  margin: 0 0 5vh;
 }
 
 .application {
@@ -30,7 +36,7 @@
 
 footer {
   text-align: center;
-  padding: 5vmin;
+  padding: 5vh;
   text-decoration: none;
   color: white;
   background-color: rgb(7, 7, 26);
@@ -48,7 +54,7 @@ p a {
 }
 
 hr {
-  margin: 4vmin 0 1vmin;
+  margin: 4vh 0 1vh;
 }
 
 a:hover {
@@ -61,10 +67,40 @@ a:hover {
 
 h1.prog-title {
   width: fit-content;
-  margin: 5vmin 0 0;
+  margin: 5vh 0 0;
 }
 
 .by-tag {
   width: fit-content;
-  margin: 0 0 5vmin;
+  margin: 0 0 5vh;
+}
+
+h3.filename {
+  color: rgb(169, 229, 240);
+}
+
+nav {
+  width: fit-content;
+  position: fixed;
+  left: 4vmin;
+  top: 4vmin;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1450px) {
+  nav {
+    width: fit-content;
+    position: inherit;
+    display: block;
+    left: 4vmin;
+    top: 4vmin;
+  }
 }
