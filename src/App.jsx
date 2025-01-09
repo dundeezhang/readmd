@@ -65,13 +65,13 @@ function App() {
           <h3 className="endoffile">End of File</h3>
           <p>
             Check out my other projects and programs at{" "}
-            <a href="https://dhz.app">dhz.app</a>{" "}
+            <a href="https://dundeezhang.com">dundeezhang.com</a>{" "}
           </p>
         </div>
       </div>
       <footer>
         <p>Dundee Zhang 2025 - Some rights reserved</p>
-        <a href="https://dhz.app">dhz.app</a>
+        <a href="https://dundeezhang.com">dundeezhang.com</a>
       </footer>
     </div>
   );
