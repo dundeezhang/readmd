@@ -1,0 +1,70 @@
+.app-content h3 {
+  font-size: 2.2vmin;
+}
+
+.app-content h2 {
+  font-size: 2.6vmin;
+}
+
+.app-content h1 {
+  font-size: 3vmin;
+}
+
+.app-content p {
+  font-size: 1.8vmin;
+}
+
+.wrap-everything {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.endoffile {
+  color: rgb(160, 160, 160);
+  margin: 0 0 5vmin;
+}
+
+.application {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 5vmin;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(7, 7, 26);
+  margin: 0;
+}
+
+footer a {
+  color: rgb(169, 229, 240);
+  text-decoration: none;
+}
+
+p a {
+  color: rgb(169, 229, 240);
+  text-decoration: none;
+}
+
+hr {
+  margin: 4vmin 0 1vmin;
+}
+
+a:hover {
+  color: rgb(97, 197, 255);
+}
+
+.app-content {
+  min-height: 100vh;
+}
+
+h1.prog-title {
+  width: fit-content;
+  margin: 5vmin 0 0;
+}
+
+.by-tag {
+  width: fit-content;
+  margin: 0 0 5vmin;
+}
