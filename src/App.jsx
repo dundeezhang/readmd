@@ -6,6 +6,7 @@ import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import "./App.css";
 
 function App() {
+  const currYear = new Date().getFullYear();
   const [fileContents, setFileContents] = useState([]);
 
   const handleMultipleFileUpload = (event) => {
@@ -96,7 +97,7 @@ function App() {
         </div>
       </div>
       <footer>
-        <p>Dundee Zhang 2025 - Some rights reserved</p>
+        <p>Dundee Zhang {currYear} - Some rights reserved</p>
         <a href="https://dundeezhang.com">dundeezhang.com</a>
       </footer>
     </div>
